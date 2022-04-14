@@ -10,7 +10,7 @@ class Solution:
         nums_freq: Dict[int, int] = Counter(nums)
         
         # max heapify nums freq hash
-        max_heap = [(count, num) for num, count in nums_freq.items()]
+        max_heap: List[Tuple[int, int]] = [(count, num) for num, count in nums_freq.items()]
         heapq._heapify_max(max_heap)
         
         # pop off the top k
