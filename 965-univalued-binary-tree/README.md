@@ -5,15 +5,15 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2018/12/28/unival_bst_1.png" style="width: 265px; height: 172px;">
-<pre><strong>Input:</strong> root = [1,1,1,1,1,null,1]
+<pre style="position: relative;"><strong>Input:</strong> root = [1,1,1,1,1,null,1]
 <strong>Output:</strong> true
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2018/12/28/unival_bst_2.png" style="width: 198px; height: 169px;">
-<pre><strong>Input:</strong> root = [2,2,2,5,2]
+<pre style="position: relative;"><strong>Input:</strong> root = [2,2,2,5,2]
 <strong>Output:</strong> false
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
