@@ -3,7 +3,7 @@ import heapq
 
 
 class Solution:
-    def frequencySort(self, s: str) -> str:  # O(n) to build heap
+    def frequencySort(self, s: str) -> str:
         res = ""
         freq_hash = Counter(s)
         
@@ -12,7 +12,6 @@ class Solution:
         
         while max_heap:
             count, letter = heapq._heappop_max(max_heap)
-            
             res += letter * count
                 
         return res
