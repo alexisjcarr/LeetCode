@@ -3,7 +3,7 @@ import heapq
 
 
 class Solution:
-    def frequencySort(self, s: str) -> str:
+    def frequencySort(self, s: str) -> str:  # O(nlogn) time | O(n) space
         res = ""
         freq_hash = Counter(s)
         
@@ -15,6 +15,4 @@ class Solution:
             res += letter * count
                 
         return res
-        
-        
-        
+      
