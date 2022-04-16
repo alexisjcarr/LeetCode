@@ -6,11 +6,6 @@ class Solution:
             ']': '[',
         }
         
-        '''
-        iterate over the str
-        when encounter an opening bracket, add to stack
-        when encounter a close bracket, pop off stack and see if match
-        '''
         stack = deque()
         
         for char in s:
