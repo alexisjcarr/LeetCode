@@ -3,20 +3,6 @@ from collections import defaultdict
 
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        '''
-        "ABAB", k = 2
-        
-        {
-            A: 2,
-            B: 2
-        }
-        
-        s = "AABABBA", k = 1
-        
-        approach: i think we can do a sliding window with a freq_counter (will optimize later)
-            if one of the elements in the counter is equal to k AND the counter only has two items
-            then we can include that substring
-        '''
         window_start, max_length = 0, 0
         freq_hash = defaultdict(int)
         max_freq = 0
