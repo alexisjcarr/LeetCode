@@ -9,7 +9,6 @@ class Solution:
         for window_end in range(len(s2)):
             freq_hash[s2[window_end]] += 1
             
-            # happy case
             if window_end - window_start + 1 == len(s1):
                 if s1_freq_hash == freq_hash:
                     return True
