@@ -3,11 +3,6 @@ from collections import Counter, defaultdict
 
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        '''
-        e   i   d   b   a   o   o   o
-        l
-                r
-        '''
         window_start, freq_hash = 0, defaultdict(int)
         s1_freq_hash = dict(Counter(s1))
         
