@@ -10,9 +10,7 @@ class Solution:
             if not root:
                 return 
             
-            left, right = root.left, root.right
-            
-            root.left, root.right = right, left
+            root.right, root.left = root.left, root.right
             
             dfs(root.right)
             dfs(root.left)
