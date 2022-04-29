@@ -10,5 +10,4 @@ class Solution:
             heapq._heappop_max(max_heap)
             
         return heapq._heappop_max(max_heap)
-        
-        
+    
