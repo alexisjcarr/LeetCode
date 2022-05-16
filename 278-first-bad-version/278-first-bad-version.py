@@ -8,7 +8,7 @@ class Solution:
         while low < high:
             mid = (low + high)//2
             
-            if isBadVersion(mid) == True:
+            if isBadVersion(mid):
                 high = mid
             
             else:
