@@ -3,8 +3,7 @@
 
 class Solution:
     def firstBadVersion(self, n: int) -> int:
-        low = 0
-        high = n
+        low, high = 0, n
         
         while low < high:
             mid = (low + high)//2
