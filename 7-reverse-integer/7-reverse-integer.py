@@ -1,7 +1,7 @@
 class Solution:
     def reverse(self, num: int) -> int:
-        MIN = -2147483648
-        MAX = 2147483647
+        MIN = -2147483648  # Integer.MIN_VALUE
+        MAX = 2147483647  # Integer.MAX_VALUE
         
         res = 0
         
