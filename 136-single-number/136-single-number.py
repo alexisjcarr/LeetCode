@@ -8,5 +8,3 @@ class Solution:
         for num in nums:
             if hash[num] == 1:
                 return num
-            
-        
